@@ -140,30 +140,6 @@ Titles can provide information about:
 
 ---
 
-## Deck Extraction
-
-Extracted deck information from the Cabin feature.
-
-Missing cabins were replaced with:
-
-```
-Unknown
-```
-
----
-
-## Fare Transformation
-
-Applied logarithmic transformation:
-
-```
-log1p(Fare)
-```
-
-to reduce fare skewness.
-
----
-
 # 4. Feature Analysis
 
 Statistical analysis was performed before modeling.
